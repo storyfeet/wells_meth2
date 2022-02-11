@@ -1,0 +1,258 @@
+@font-face {
+    font-family:frank;
+    src:url("/s/core/fonts/Webfonts/franklingothicfs_book_macroman/franklingothic-book-webfont.woff")
+}
+
+@font-face {
+    font-family:frank-demi;
+    src:url("/s/core/fonts/Webfonts/franklingothicfs_demi_macroman/franklingothic-demi-webfont.woff")
+}
+
+:root{
+    --main-bg-col:#b52129;
+    --main-bg-col-tran:#b5212980;
+    /*--main-bg-col:red;*/
+    
+}
+
+/* Wide and Tall */ 
+
+body{
+    font-family:Arial;
+    margin:0px;
+    padding:0px;
+}
+
+h1{
+    //margin:10px;
+    font-family:frank;
+}
+
+button{
+    cursor:pointer;
+}
+
+#contact {
+    background: #b52129;
+    height:10vw;
+    min-height:150px;
+    clip-path:polygon(0% 100%, 0% 50%,100% 0%, 100% 100%);
+    text-align:right;
+    padding:2vw 10vw 0px 0px;
+    color:white;
+}
+
+#contact.base_fixed {
+    position:fixed;
+    padding:1vw 3vw;
+    bottom:0;
+    left:0;
+    right:0;
+
+}
+
+blockquote {
+    font-size: x-large;
+    color:#b52129;
+    font-style:italic;
+}
+
+#ribbon_loc button{
+    z-index:5;
+}
+
+#banner{
+    z-index:0;
+}
+
+#ribbon_loc button:hover {
+    background-color:white;
+    border:1px solid #b52129;
+    color:#b52129;
+}
+
+
+
+#the_methodist {
+    font-family:frank;
+}
+
+#the_methodist span{
+    font-family:frank-demi;
+}
+
+/* Wide */
+
+.main-wide .div-right {
+    float:right;
+}
+.main-wide .div-right img{
+    width:400px;
+}
+
+.main-wide #banner {
+    clip-path:polygon(0% 0%, 100% 0%, 100% 60%, 0% 100%);
+    background-color:#b52129;
+}
+.main-wide #ellipses {
+    display:none;
+}
+.main-wide #obanner{
+    position:relative;
+   // top:0px;
+    left:0px;
+    height:20vw;
+    right:0px;
+}
+
+/*.main-wide .banner_abs{
+    //position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+}*/
+
+.main-wide #banner img{
+    max-width: 35%;
+    clip-path:polygon(10% 5% ,100% 5%, 100% 80%, 10% 100% );
+    margin:1% 0% 1% -5%;
+    /*float:left;*/
+}
+
+.main-wide #the_methodist {
+    position:absolute;
+    text-align:right;
+    font-size:4vw;
+    color:white;
+    z-index:3;
+    top:50px;
+    right:8vw;
+    width:50%;
+}
+
+.main-wide #orb {
+    position:absolute;
+    top:20px;
+    right:1vw;
+    width:6vw;
+}
+
+.main-wide #ribbon_loc {
+    text-align:center;
+    margin-bottom:-10px;
+    background-color:#b52129;
+}
+
+.main-wide #ribbon_loc.top_fixed {
+    position:fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    background:#b5212980;
+    z-index:4;
+}
+
+
+#ribbon_loc button {
+    margin:10px;
+    border:1px solid white;
+    background-color:#b52129;
+    color:white;
+    border:1px solid white;
+}
+.main-wide #ribbon_loc button{
+    font-size:215%;
+}
+
+.main-wide #contents {
+    position:relative;
+    width:80%;
+    max-width:1000px;
+    margin:5vw auto 3vw auto;
+}
+
+
+/* Tall */
+
+.main-tall{
+    font-size:large;
+}
+
+.main-tall #banner {
+    clip-path:polygon(0% 0%, 100% 0%, 100% 60%, 0% 100%);
+    background-color:#b52129;
+}
+
+
+.main-tall #ribbon_loc{
+    z-index:4;
+    position:fixed;
+    top:0;
+    background:#b52129;
+    top:0;
+    left:0:
+}
+
+.main-tall #ribbon_loc button{
+    font-size:250%;
+}
+
+.main-tall #ribbon_loc div{
+    display:none;
+}
+.main-tall #ribbon_loc.show_menu div{
+    display:inline;
+}
+
+.main-tall #obanner {
+    width:100%;
+    position: relative;
+    min-height:20vw;
+}
+
+.main-tall #banner img{
+    width:100%;
+    margin:30px 0px 0px 0px;
+}
+
+.main-tall #the_methodist {
+    position:absolute;
+    text-align:right;
+    font-size:6vw;
+    color:#b52129;
+    z-index:3;
+    right:10vw;
+    bottom:0vw;
+}
+.main-tall #orb {
+    position:absolute;
+    width:8vw;
+    right:1vw;
+    bottom:4vw;
+}
+
+.main-tall #contents{
+    padding:30px;
+}
+
+.main-tall .div-right {
+   // float:right;
+}
+.main-tall .div-right img{
+    width:400px;
+}
+
+.main-tall .img-right{
+    width:350px;
+    margin:auto;
+}
+
+.main-wide .img-right{
+    width:350px;
+    float:right;
+}
+
+.main-wide .columns div{
+    float:left;
+    width:45%;
+}
