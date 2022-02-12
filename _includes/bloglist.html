@@ -1,0 +1,10 @@
+<ul>
+    <li>One thing</li>
+    <li>Second thing</li>
+    <h1>Filter : {{include.filter}}</h1>
+    {% for post in site.posts %}
+      {% if post.categories contains {{include.filter}} %}
+        <a href="{{post.url}}"><p>{{ post.title}} : {{post.categories}}</p></a>
+      {% endif %}
+    {% endfor %}
+</ul>
