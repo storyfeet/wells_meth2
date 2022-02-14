@@ -3,7 +3,7 @@
   <div class="wrapper">
 
     <div class="banner"> 
-        <img src="{{page.image | default:"s/pics/base/front_view.jpg"  }}">
+        <img src="{{page.image | default:"/s/pics/base/front_view.jpg"  }}">
     </div>
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
