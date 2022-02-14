@@ -2,6 +2,7 @@
 title: Members
 date: 2019-6-19
 image: /s/pics/base/members_wide.jpg
+layout: page
 ---
 As a church we work to serve people in the same way as Jesus serves us. Behind the scenes so many people are doing simple things. 
 
