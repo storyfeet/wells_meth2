@@ -74,6 +74,14 @@ blockquote {
 
 
 .the_methodist {
+    position:absolute;
+    text-align:right;
+    font-size:4vw;
+    color:white;
+    z-index:3;
+    top:50px;
+    right:8vw;
+    width:50%;
     font-family:frank;
 }
 
@@ -95,22 +103,18 @@ blockquote {
     /*float:left;*/
 }
 
-.main-wide #the_methodist {
-    position:absolute;
-    text-align:right;
-    font-size:4vw;
-    color:white;
-    z-index:3;
-    top:50px;
-    right:8vw;
-    width:50%;
-}
 
-.main-wide #orb {
+.orb {
     position:absolute;
     top:20px;
     right:1vw;
     width:6vw;
+
+    @include media-query($on-palm) {
+        width:8vw;
+        right:1vw;
+        bottom:4vw;
+    }
 }
 
 .main-wide #ribbon_loc {
@@ -199,12 +203,6 @@ blockquote {
     z-index:3;
     right:10vw;
     bottom:0vw;
-}
-.main-tall #orb {
-    position:absolute;
-    width:8vw;
-    right:1vw;
-    bottom:4vw;
 }
 
 .main-tall #contents{
