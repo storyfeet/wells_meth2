@@ -5,7 +5,7 @@
 
 @font-face {
     font-family:frank-demi;
-    src:url("/s/core/fonts/Webfonts/franklingothicfs_demi_macroman/franklingothic-demi-webfont.woff")
+    src:url($baseurl+"/s/core/fonts/Webfonts/franklingothicfs_demi_macroman/franklingothic-demi-webfont.woff")
 }
 
 :root{
@@ -73,11 +73,11 @@ blockquote {
 
 
 
-#the_methodist {
+.the_methodist {
     font-family:frank;
 }
 
-#the_methodist span{
+.the_methodist span{
     font-family:frank-demi;
 }
 

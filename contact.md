@@ -1,6 +1,9 @@
-#title:Contact
-#date:19/06/2019
-#image:/s/pics/base/front_view_wide.jpg
+---
+title: Contact
+date: 2019-06-19
+image: /s/pics/base/front_view_wide.jpg
+layout: page
+---
 
 
 <div class="columns" >
