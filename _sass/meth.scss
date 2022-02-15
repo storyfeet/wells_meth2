@@ -1,11 +1,11 @@
 @font-face {
     font-family:frank;
-    src:url("/s/core/fonts/Webfonts/franklingothicfs_book_macroman/franklingothic-book-webfont.woff")
+    src:url($baseurl +"/assets/fonts/Webfonts/franklingothicfs_book_macroman/franklingothic-book-webfont.woff")
 }
 
 @font-face {
     font-family:frank-demi;
-    src:url($baseurl+"/s/core/fonts/Webfonts/franklingothicfs_demi_macroman/franklingothic-demi-webfont.woff")
+    src:url($baseurl+"/assets/fonts/Webfonts/franklingothicfs_demi_macroman/franklingothic-demi-webfont.woff")
 }
 
 :root{
