@@ -3,6 +3,9 @@ Wells Methodist Church Website
 
 This is where the Church website can be modified or updated:
 
+This site is build using Jekyll as that is what Github Pages works with best, This is a popular site building system, which uses Liquid templates.
+
+
 To add a new blog
 --------
 
@@ -16,5 +19,4 @@ title: Name of Blog
 ```
 
 4. Fill in the rest under the lower lines using the [markdown format](https://daringfireball.net/projects/markdown/syntax)
-
-If you do this directly on github, then you will need to commit the changes. If you do this on the github website, there will be a box below the file to commit them to.
+5. Commit the changes (If you do this on the github website, there will be a box below the file to type a commit messga into.)
