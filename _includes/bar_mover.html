@@ -1,22 +1,22 @@
 <script>
   topbar = function(){
       //topbar
-      let contents = document.getElementById("contents");
-      let themeth = document.getElementById("the_methodist");
-      let ribdiv = document.getElementById("ribbon_loc");
+      //let contents = document.getElementById("contents");
+      let themeth = document.getElementsByClassName("the_methodist")[0];
+      let ribdiv = document.getElementsByClassName("site-nav")[0];
       if (themeth.getBoundingClientRect().top < 0 ){
-          ribdiv.className = "top_fixed";
+          ribdiv.classList.add("top_fixed");
       }else{
-          ribdiv.className = "banner_abs";
+          ribdiv.classList.remove("top_fixed");
       }
 
       //basebar
-      let base = document.getElementById("contact");
+      /*let base = document.getElementById("contact");
       if (contents.getBoundingClientRect().height < window.innerHeight * 0.4){
           base.className = "base_fixed";
       }else {
           base.className = "base_floaty";
-      }
+      }*/
 
 
 

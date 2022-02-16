@@ -64,6 +64,35 @@ blockquote {
     z-index:0;
 }
 
+.site-nav {
+  background-color: $banner_red;
+  z-index:10;
+}
+
+
+.site-nav.top_fixed {
+  position:fixed;
+  top:0px;
+  background-color: $banner_col_tran;
+}
+
+.site-nav a {
+  margin:2px;
+  border:2px solid white;
+  padding:2px;
+  background-color:$banner_red;
+  color:white;
+  border:1px solid white;
+  font-size:1.5rem;
+}
+
+.site-nav a:hover, .site-nav a:active, .site-nav a:visited,.site-nav a:link{
+  color:white;
+  white-space:nowrap;
+}
+
+
+
 #ribbon_loc button:hover {
     background-color:white;
     border:1px solid #b52129;
