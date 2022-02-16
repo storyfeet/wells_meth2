@@ -8,14 +8,6 @@
     src:url($baseurl+"/assets/fonts/Webfonts/franklingothicfs_demi_macroman/franklingothic-demi-webfont.woff")
 }
 
-:root{
-    --main-bg-col:#b52129;
-    --main-bg-col-tran:#b5212980;
-    /*--main-bg-col:red;*/
-    
-}
-
-/* Wide and Tall */ 
 
 body{
     font-family:Arial;
@@ -33,7 +25,7 @@ button{
 }
 
 #contact {
-    background: #b52129;
+    background: $banner_red;
     height:10vw;
     min-height:150px;
     clip-path:polygon(0% 100%, 0% 50%,100% 0%, 100% 100%);
@@ -71,7 +63,19 @@ blockquote {
     color:#b52129;
 }
 
+.orb {
+    position:absolute;
+    top:20px;
+    right:1vw;
+    width:6vw;
 
+    @include media-query($on-palm) {
+        width:8vw;
+        right:1vw;
+        top:auto;
+        bottom:4vw;
+    }
+}
 
 .the_methodist {
     position:absolute;
@@ -83,6 +87,11 @@ blockquote {
     right:8vw;
     width:50%;
     font-family:frank;
+    @include media-query($on-palm) {
+      color:$banner_red;
+      top:auto;
+      bottom:0px;
+    }
 }
 
 .the_methodist span{
@@ -100,22 +109,12 @@ blockquote {
     max-width: 35%;
     clip-path:polygon(10% 5% ,100% 5%, 100% 80%, 10% 100% );
     margin:1% 0% 1% -5%;
-    /*float:left;*/
-}
-
-
-.orb {
-    position:absolute;
-    top:20px;
-    right:1vw;
-    width:6vw;
-
     @include media-query($on-palm) {
-        width:8vw;
-        right:1vw;
-        bottom:4vw;
+      max-width: 70%;
     }
 }
+
+
 
 .main-wide #ribbon_loc {
     text-align:center;
