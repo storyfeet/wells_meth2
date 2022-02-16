@@ -65,30 +65,67 @@ blockquote {
 }
 
 .site-nav {
-  background-color: $banner_red;
+  display:block;
   z-index:10;
+  background-color:#00000000;
+  border:none;
+  width:100%;
 }
 
+.trigger {
+  width:100%;
+  margin:0;
+  padding:0;
+  background-color: $banner_red;
+  text-align:center;
+  @include media-query($on-palm){
+    background-color:$no_col;
+    top:30px;
+    right:30px;
+    left:revert;
+    width:auto;
+  }
+}
 
-.site-nav.top_fixed {
+.wrapper.header {
+  width:100%;
+  max-width:100%;
+  margin:0px;
+  padding:0px;
+}
+
+.top_fixed > .trigger {
   position:fixed;
+  background-color:$banner_col_tran;
+  left:0px;
   top:0px;
-  background-color: $banner_col_tran;
+  right:0px;
+
+
+  @include media-query($on-palm){
+    background-color:$no_col;
+    top:30px;
+    right:30px;
+    left:revert;
+    width:auto;
+  }
 }
 
 .site-nav a {
-  margin:2px;
+
+  margin:1px 0px;
   border:2px solid white;
-  padding:2px;
+  padding:2px 5px;
   background-color:$banner_red;
   color:white;
   border:1px solid white;
   font-size:1.5rem;
+  white-space:nowrap;
+  display:inline;
 }
 
 .site-nav a:hover, .site-nav a:active, .site-nav a:visited,.site-nav a:link{
   color:white;
-  white-space:nowrap;
 }
 
 
@@ -140,7 +177,10 @@ blockquote {
   }
 }
 
-
+.banner_block{
+  display:block;
+  position:relative;
+}
 
 .banner {
     clip-path:polygon(0% 0%, 100% 0%, 100% 60%, 0% 100%);

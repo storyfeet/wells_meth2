@@ -1,10 +1,9 @@
 <header class="site-header" role="banner">
 
-  <div class="wrapper">
+  <div class="wrapper header">
 
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    {%comment%}<a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>{%endcomment%}
 
     {%- if page_paths -%}
       <nav class="site-nav">
@@ -22,14 +21,14 @@
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.title -%}
-            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a><span> </span>
             {%- endif -%}
           {%- endfor -%}
         </div>
       </nav>
     {%- endif -%}
   </div>
-  <div class="banenr_block" style="display:block;position:relative;">
+  <div class="banner_block">
     <div class="banner">
         <img src="{{page.image | default:"/s/pics/base/front_view.jpg" | relative_url }}">
     </div>
