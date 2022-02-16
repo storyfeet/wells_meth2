@@ -24,6 +24,13 @@ button{
     cursor:pointer;
 }
 
+.menu-icon{
+  position:fixed;
+  top:0px;
+  right:0px;
+  z-index:10;
+}
+
 #contact {
     background: $banner_red;
     height:10vw;
@@ -76,7 +83,6 @@ blockquote {
         bottom:4vw;
     }
 }
-
 .the_methodist {
     position:absolute;
     text-align:right;
@@ -97,6 +103,14 @@ blockquote {
 .the_methodist span{
     font-family:frank-demi;
 }
+
+.the_methodist a:link, .the_methodist a:visited, .the_methodist a:active, .the_methodist a:hover{
+  color:white;
+  @include media-query($on-palm){
+    color:$banner_red;
+  }
+}
+
 
 
 .banner {

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Welcome to Wells Methodist Church
+title: Welcome
 image: /s/pics/base/front_view_wide.jpg
 ---
 
@@ -19,7 +19,7 @@ And we are part of the larger body of christ.
 
 Do come and get it touch. We are a friendly bunch, and I promise we don't bite.
 
-## Accessibility 
+## Accessibility
 
 * Easy wheelchair access.
 * Disabled toiled
@@ -36,7 +36,7 @@ Find us at 24 Southover , Wells, BA5 1UG
 <img src="/s/pics/contact/map.png" style="max-width:450px">
 
 For Communion services the Methodist Communion is an "Open Table"  -  all who share the Christian faith are welcome to receive the bread and non-alcoholic wine which is included in our services once a month.  
-  
+
 Baptisms, weddings and funerals can be arranged with the Minister.  
 
 We are doing our bit for the climate/environment by recycling all we can and trying to be as plastic-free as possible.  

@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -19,12 +19,12 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Wells Methodist Church
-email: info@wellsmethodistchurch.org.uk 
+email: info@wellsmethodistchurch.org.uk
 description: >- # this means to ignore newlines until "baseurl:"
   Wells Methodist Church, responding to the gospel of God’s love in Christ and to live out its discipleship in worship and mission. Through Worship, Service, Learning and Caring, and Evangelism
 baseurl: "/wells_meth2" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  storyfeet
+github_username:  storyfeet/wells_meth2.git
 
 # Build settings
 theme: minima

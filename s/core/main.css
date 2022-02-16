@@ -8,14 +8,9 @@
     src:url("/s/core/fonts/Webfonts/franklingothicfs_demi_macroman/franklingothic-demi-webfont.woff")
 }
 
-:root{
-    --main-bg-col:#b52129;
-    --main-bg-col-tran:#b5212980;
-    /*--main-bg-col:red;*/
-    
-}
 
-/* Wide and Tall */ 
+
+/* Wide and Tall */
 
 body{
     font-family:Arial;
