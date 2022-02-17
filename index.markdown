@@ -33,7 +33,7 @@ Do come and get it touch. We are a friendly bunch, and I promise we don't bite.
 
 Find us at 24 Southover , Wells, BA5 1UG
 
-<img src="/s/pics/contact/map.png" style="max-width:450px">
+<img src="{{site.baseurl}}/s/pics/contact/map.png" style="max-width:450px">
 
 For Communion services the Methodist Communion is an "Open Table"  -  all who share the Christian faith are welcome to receive the bread and non-alcoholic wine which is included in our services once a month.  
 
