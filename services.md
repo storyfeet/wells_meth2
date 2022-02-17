@@ -1,6 +1,9 @@
-#title:Services
-#date:11/12/2019
-#image:/s/pics/base/hall_view_wide.jpg
+---
+title: Services
+date: 11/12/2019
+image: /s/pics/base/hall_view_wide.jpg
+layout: page
+---
 
 ## Sunday Morning Service - 10:30am
 
@@ -20,5 +23,3 @@ After the service - as well as tea and coffee - members of the prayer ministry t
 Informal evening services, usually a discussion based around a DVD are held once a month, usually the second Sunday at 6:30.  
 
 After the morning service there is plenty of time to get to know each other over tea and biscuits and often some lovely cakes from our team of volunteers.
-
-

@@ -130,11 +130,6 @@ blockquote {
 
 
 
-#ribbon_loc button:hover {
-    background-color:white;
-    border:1px solid #b52129;
-    color:#b52129;
-}
 
 .orb {
     position:absolute;
@@ -198,117 +193,22 @@ blockquote {
 }
 
 
-
-.main-wide #ribbon_loc {
-    text-align:center;
-    margin-bottom:-10px;
-    background-color:#b52129;
-}
-
-.main-wide #ribbon_loc.top_fixed {
-    position:fixed;
-    top:0px;
-    left:0px;
-    right:0px;
-    background:#b5212980;
-    z-index:4;
+.site-footer {
+  background-color:$banner_red;
 }
 
 
-#ribbon_loc button {
-    margin:10px;
-    border:1px solid white;
-    background-color:#b52129;
-    color:white;
-    border:1px solid white;
-}
-.main-wide #ribbon_loc button{
-    font-size:215%;
+.footer-col-1 {
+  width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+  width:         calc(30% - (#{$spacing-unit} / 2));
 }
 
-.main-wide #contents {
-    position:relative;
-    width:80%;
-    max-width:1000px;
-    margin:5vw auto 3vw auto;
+.footer-col-2 {
+  width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+  width:         calc(30% - (#{$spacing-unit} / 2));
 }
 
-
-/* Tall */
-
-.main-tall{
-    font-size:large;
-}
-
-.main-tall #banner {
-    clip-path:polygon(0% 0%, 100% 0%, 100% 60%, 0% 100%);
-    background-color:#b52129;
-}
-
-
-.main-tall #ribbon_loc{
-    z-index:4;
-    position:fixed;
-    top:0;
-    background:#b52129;
-    top:0;
-    left:0;
-}
-
-.main-tall #ribbon_loc button{
-    font-size:250%;
-}
-
-.main-tall #ribbon_loc div{
-    display:none;
-}
-.main-tall #ribbon_loc.show_menu div{
-    display:inline;
-}
-
-.main-tall #obanner {
-    width:100%;
-    position: relative;
-    min-height:20vw;
-}
-
-.main-tall #banner img{
-    width:100%;
-    margin:30px 0px 0px 0px;
-}
-
-.main-tall #the_methodist {
-    position:absolute;
-    text-align:right;
-    font-size:6vw;
-    color:#b52129;
-    z-index:3;
-    right:10vw;
-    bottom:0vw;
-}
-
-.main-tall #contents{
-    padding:30px;
-}
-
-.main-tall .div-right {
-   // float:right;
-}
-.main-tall .div-right img{
-    width:400px;
-}
-
-.main-tall .img-right{
-    width:350px;
-    margin:auto;
-}
-
-.main-wide .img-right{
-    width:350px;
-    float:right;
-}
-
-.main-wide .columns div{
-    float:left;
-    width:45%;
+.footer-col-3 {
+  width: -webkit-calc(40% - (#{$spacing-unit} / 2));
+  width:         calc(40% - (#{$spacing-unit} / 2));
 }
