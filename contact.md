@@ -33,6 +33,6 @@ layout: page
 
 
 
-<img src="{{sit.baseurl}}/s/pics/contact/map.png" style="max-width:450px">
+<img src="{{site.baseurl}}/s/pics/contact/map.png" style="max-width:450px">
 
     
