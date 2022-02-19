@@ -6,11 +6,7 @@ layout: page
 ---
 
 
-<div class="columns" >
-
-<div>
-
-<h3>Our address is :</h3>
+### Our address is :
 
 <ul style="list-style-type:none" >
     <li>24 Southover</li>
@@ -19,33 +15,24 @@ layout: page
 </ul>
 
 
-<h3>Minister: Rev Tina Swire</h3>
+### Minister: Rev Tina Swire
 
-<p>01749 595759</p>
+01749 595759
 
-<a href = "mailto:tina.swire@methodist.org.uk">tina.swire@methodist.org.uk</a>
+[tina.swire@methodist.org.uk](mailto:tina.swire@methodist.org.uk)
 
-<h3>Church Community Worker: Bethan Foister </h3>
+### Church Community Worker: Bethan Foister 
 
-<p>01749 841142<p>
+01749 841142
 
-<a href = "mailto:bethanfoister@btinternet.com">bethanfoister@btinternet.com</a>
+[bethanfoister@btinternet.com](mailto:bethanfoister@btinternet.com)
 
-<h3>Church Lettings Coordinator: Jan Merritt </h3>
+### Church Lettings Coordinator: Jan Merritt 
 
-<p>01749 870303<p>
+01749 870303
 
 
-</div>
-<div>
 
 <img src="/s/pics/contact/map.png" style="max-width:450px">
 
     
-</div>
-
-</div><!-- collumns-->
-
-
-<div style="clear:both"></div>
-
