@@ -1,11 +1,10 @@
-#title:Upcoming Events
-#image:/s/pics/base/front_view.jpg
-
+---
+title: Upcoming Events
+image: /s/pics/base/front_view.jpg
+---
 
 
 ## Feb 2022
-
-13th Feb  Keith Elliott 
 
 20th Feb  Anna Schiffer
 
